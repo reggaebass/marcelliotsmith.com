@@ -1,0 +1,278 @@
+/*custom css styles*/
+body {
+	background-color: #dddddd;
+	/*
+	background-repeat: no-repeat;
+    background-position: top; 
+    background-size: 1500px 325px;*/
+}
+
+.carousel-inner
+{
+	background-color: #fff;
+	text-align: center;
+}
+
+.carousel-inner IMG 
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer p
+{
+	text-align: center;
+	padding-top: 2em;
+}
+
+h1, h2, h3, h4, .sm-nav, blockquote
+{
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	color: #991B1E;
+}
+
+h4
+{
+	color: #991B1E !important;	
+}
+
+.sm-nav
+{
+	font-size: 1.25em;
+}
+
+.carousel-caption
+{
+	color: #991B1E;
+}
+
+.panel-heading a
+{
+	width: 100%;
+	display: block;
+}
+
+.panel
+{
+	background-color: rgba(150,150,150,0.2);
+}
+
+p
+{
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+}
+
+.navbar-default
+{
+	background-color: transparent;
+}
+
+.navbar
+{
+	border-width: 0px;
+}
+
+.navbar-toggle
+{
+	float: left;
+	margin-left: 15px;
+}
+
+.navbar-default .navbar-toggle
+{
+	background: #cccccc;
+}
+
+.img-float
+{
+	margin: 1.5em;
+}
+
+.wireframe_float
+{
+	text-align: center;
+}
+
+.modal_image
+{
+	width: 100%;
+}
+
+.jumbotron
+{
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/Quill.jpg");
+	background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.container-fluid .jumbotron
+{
+	border-radius: 0;
+}
+
+.jumbotron h1, .jumbotron blockquote
+{
+	text-align: center;
+	color: #dddddd;
+	text-shadow: 2px 2px 2px #333333;
+	padding-bottom: .5em;
+	
+}
+
+.musicmain
+{
+		text-align: center;
+}
+
+.musicmain blockquote
+{
+	border: 0px solid #ffffff;
+}
+
+.musicpics img
+{
+	max-height: 280px;
+}
+
+.jumbotron img, .musicmain img
+{
+	width: 100%;
+}
+
+.jumbotron .logo, .home-nav img
+{
+	max-width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sm-home-nav .img-responsive
+{
+	display: inline-block !important;
+	height: 75px;
+	width: 75px;
+}
+
+.watermark
+{
+	width: 60%;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#gdGallery p
+{
+	margin-bottom: 1.75em;
+}
+
+home .nav > li > a:focus, .nav > li > a:hover
+{
+	background: transparent;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@-webkit-keyframes slideDown { from { margin-top:-25px; } to { margin-top:0; } }
+@-moz-keyframes slideDown { from { margin-top:-25px; } to { margin-top:0; } }
+@keyframes slideDown { from { margin-top:-25px; } to { margin-top:0; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.slideDown {
+	-webkit-animation:slideDown ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:slideDown ease-in 1;
+	animation:slideDown ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+
+
+.fade-in.one {
+-webkit-animation-delay: .1s;
+-moz-animation-delay:.1s;
+animation-delay: 0.1s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: .7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay: 1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 1.9s;
+-moz-animation-delay: 1.9s;
+animation-delay: 1.9s;
+}
+
+.fade-in.six {
+-webkit-animation-delay: 2.1s;
+-moz-animation-delay: 2.1s;
+animation-delay: 2.1s;
+}
+
+/*---make a basic box ---*/
+.box{
+width: 100%;
+height: 100%;
+}
+
+
+
+/*---viewport specific css ---*/
+@media (max-width: 767px) {
+
+.jumbotron
+{
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/Quill.jpg");
+	background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 700px 467px;
+
+}
+}

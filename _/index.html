@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Smith Creative Services</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+</head>
+<body>
+    <div class="jumbotron fade-in">
+            <div class="logo-float">
+                <img src="images/MESlogo-01.png" class="img-responsive logo"></img>
+                <h1 class="">Hi. I'm Marc. What can I do for you?</h1>
+            </div>
+        </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="box fade-in one">
+        
+        </div>
+    </div> 
+    <div class="row home">
+        <ul class="nav nav-justified home-nav hidden-xs">
+                    <li  role="presentation" class="fade-in two webServicesSeal"><a href="web_services.html"><img src="images/wax-seal-web-services.gif" class="img-responsive"></img><h3>Web Services</h3></a></li>
+                    <li  role="presentation" class="fade-in three graphicDesignSeal"><a href="graphic_design.html"><img src="images/wax-seal-graphic-design.gif" class="img-responsive"><h3>Graphc Design</h3></a></li>
+                    <li  role="presentation" class="fade-in four illustrationSeal"><a href="illustration.html"><img src="images/wax-seal-illustration.gif" class="img-responsive"><h3>Illustration</h3></a></li>
+                    <li  role="presentation" class="fade-in five  musicSeal"><a href="music.html"><img src="images/wax-seal-music.gif" class="img-responsive"><h3>Music</h3></a></li>
+                    <li  role="presentation" class="fade-in six contactSeal"><a href="about.html"><img src="images/wax-seal-contact.gif" class="img-responsive"><h3>Contact</h3></a></li>
+        </ul>
+        <ul class="nav nav-justified sm-home-nav visible-xs">
+                    <li  role="presentation" class="fade-in two webServicesSeal"><a href="web_services.html"><img src="images/wax-seal-web-services.gif" class="img-responsive"></img><span class="sm-nav">Web Services</span></a></li>
+                    <li  role="presentation" class="fade-in three  graphicDesignSeal"><a href="graphic_design.html"><img src="images/wax-seal-graphic-design.gif" class="img-responsive"><span class="sm-nav">Graphic Design</span></a></li>
+                    <li  role="presentation" class="fade-in four illustrationSeal"><a href="illustration.html"><img src="images/wax-seal-illustration.gif" class="img-responsive"><span class="sm-nav">Illustration</span></a></li>
+                    <li  role="presentation" class="fade-in five  musicSeal"><a href="music.html"><img src="images/wax-seal-music.gif" class="img-responsive"><span class="sm-nav">Music</span></a></li>
+                    <li  role="presentation" class="fade-in six contactSeal"><a href="about.html"><img src="images/wax-seal-contact.gif" class="img-responsive"><span class="sm-nav">Contact</span></a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <footer class="col-sm-12">
+            <p><small>Designed entierly by Marc Smith using the jQuery and Bootstrap frameworks</small></p>
+        </footer>
+    </div>     
+</div>
+
+<!-- javascript -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+$( ".webServicesSeal" ).hover(
+    function() {
+        $( ".webServicesSeal img" ).attr( "src", "images/wax-seal-web-services-hover.gif");
+    }, function() {
+        $( ".webServicesSeal img" ).attr( "src", "images/wax-seal-web-services.gif");
+});
+
+$( ".graphicDesignSeal" ).hover(
+    function() {
+        $( ".graphicDesignSeal img" ).attr( "src", "images/wax-seal-graphic-design-hover.gif");
+    }, function() {
+        $( ".graphicDesignSeal img" ).attr( "src", "images/wax-seal-graphic-design.gif");
+});
+
+$( ".illustrationSeal" ).hover(
+    function() {
+        $( ".illustrationSeal img" ).attr( "src", "images/wax-seal-illustration-hover.gif");
+    }, function() {
+        $( ".illustrationSeal img" ).attr( "src", "images/wax-seal-illustration.gif");
+});
+
+$( ".musicSeal" ).hover(
+    function() {
+        $( ".musicSeal img" ).attr( "src", "images/wax-seal-music-hover.gif");
+    }, function() {
+        $( ".musicSeal img" ).attr( "src", "images/wax-seal-music.gif");
+});
+
+$( ".contactSeal" ).hover(
+    function() {
+        $( ".contactSeal img" ).attr( "src", "images/wax-seal-contact-hover.gif");
+    }, function() {
+        $( ".contactSeal img" ).attr( "src", "images/wax-seal-contact.gif");
+});
+
+</script>
+</body>
+</html>
